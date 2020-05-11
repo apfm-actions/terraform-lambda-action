@@ -18,9 +18,8 @@ inputs:
     required: true
 
   funcion_name:
-    description: 'Enable Public IP Allocation'
+    description: 'Lambda function name'
     required: true
-    default: false
 
   region:
     description: 'AWS region to deploy to'
@@ -33,7 +32,7 @@ inputs:
 
   zip_payload:
     description: 'Path to the function's deployment package within the local filesystem'
-    required: false
+    required: true
 
   environmental_variables:
     description: 'JSON map of environment variables to configure on the lambda.'
