@@ -6,8 +6,8 @@ Usage
 -----
 
 ```yaml
-  - name: My Service
-    uses: aplaceformom/deploy-ecs-service-action@master
+  - name: Lambda Deploy
+    uses: aplaceformom/terraform-lambda-action@master
     with:
       workspace: dev
       project: examples
@@ -103,3 +103,10 @@ Outputs
 | lambda_arn            | ARN of the created function     |
 | lambda_invoke_arn     | ARN used for invoking function  |
 | lambda_role           | IAM role attached               |
+
+
+To Do
+-------
+- Tag resources with project, owner, email
+- Implement testing workflow to validate action
+- Build hello world example
