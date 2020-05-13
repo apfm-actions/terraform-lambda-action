@@ -17,6 +17,11 @@ inputs:
     description: 'Project email address'
     required: true
 
+  destroy:
+    description: 'Runs Terraform destroy to destroy existing resources created by this action'
+    required: false
+    default: false
+
   funcion_name:
     description: 'Lambda function name'
     required: true
