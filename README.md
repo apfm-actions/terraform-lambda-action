@@ -107,6 +107,7 @@ Outputs
 
 To Do
 -------
+- Remove project, owner, email inputs -- these has be set as env variable.
 - Tag resources with project, owner, email
 - Implement testing workflow to validate action
 - Build hello world example
