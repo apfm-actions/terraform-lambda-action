@@ -107,6 +107,7 @@ Outputs
 
 To Do
 -------
+- Need to fix providers
 - Remove project, owner, email inputs -- these has be set as env variable.
 - Tag resources with project, owner, email
 - Implement testing workflow to validate action
